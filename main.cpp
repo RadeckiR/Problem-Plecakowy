@@ -306,7 +306,9 @@ srand(time(NULL));
 
 //            // do dynamicznego
 
- /*   clock_t start, finish, czas_wyczerpujacy2;
+
+/*
+  clock_t start, finish, czas_wyczerpujacy2;
 
     double czas_wyczerpujacy, czas_zachlanny, czas_dynamiczny,  t3, t4, czas, czas1;
 
@@ -343,11 +345,11 @@ for (int ilosc = 100; ilosc <=250; ilosc+=10)
 		cout<<"zachlanny"<<endl;
 
     przedmiot * plecak2 = new przedmiot[ilosc];
-		auto	 t1 = Clock::now();
+			 t1 = Clock::now();
 		start= clock();
     zachlanny(wartosc_ilosc, plecak2, muzeum, pojemnosc_plecaka, ilosc);
     finish= clock();
-	auto		t2 = Clock::now();
+			t2 = Clock::now();
 	 czas_wyczerpujacy2=((finish-start)/CLOCKS_PER_SEC)*1000;
             czas_zachlanny=std::chrono::duration_cast<std::chrono::milliseconds>(t2 - t1).count();
             wynik2<<ilosc<<" "<<czas_zachlanny<<endl;
@@ -379,7 +381,8 @@ for (int ilosc = 100; ilosc <=250; ilosc+=10)
 }
 wynik1.close();
 wynik2.close();
-wynik3.close();/*       */
+wynik3.close();
+*/
 cout<<"zadanie"<<endl;
 int	pojemnosc_plecaka = 16;
 int ilosc_zadanie = 5;
